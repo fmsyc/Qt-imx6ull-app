@@ -1,0 +1,41 @@
+# ---- Qt / qmake 构建产物 ----
+build-*/
+build/
+debug/
+release/
+*.o
+*.obj
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.pro.user
+*.pro.user.*
+.qmake.stash
+Makefile
+Makefile.*
+*.Debug
+*.Release
+object_script.*
+*.gch
+
+# ---- Qt Creator / IDE ----
+.vscode/
+.idea/
+*.autosave
+CMakeLists.txt.user*
+
+# ---- 交叉编译产物 ----
+*.a
+*.so
+*.so.*
+*.dll
+*.elf
+*.bin
+
+# ---- 系统 / 编辑器 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+*.swp
